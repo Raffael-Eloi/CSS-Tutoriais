@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Dicionário -->
+        <meta charset="UTF-8">
+
+        <!-- Definição de compatibilidade Internet explorer/edge -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Instruções ao browser de como controlar a dimensão das páginas-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">    
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Título -->
+        <title>Position</title>
+    </head>
+    <body>
+        <!-- Cabeçalho -->
+        <header>
+            <h1>Testando Position CSS</h1>
+        </header>
+
+        <!-- Lista tipos de positions CSS -->
+        <div id="tipos-positions">
+            <h3>Tipos de Positions</h3>
+            <ul>
+                <li>Position Static - <em>Este é o padrão</em></li>
+                <li>Position Relative</li>
+                <li>Position Fixed</li>
+                <li>Position Absolute</li>
+                <li>Position Sticky</li>
+            </ul>
+        </div>
+
+        <!-- Conteúdo principal -->
+        <div id="conteudo-principal">
+            <h3>Exemplo de positions na prática</h3>
+
+            <div id="box-positions"> 
+                <!-- Position static - É o que vem definido por padrão -->
+                <div class="div-static">
+                    Position static
+                </div>
+
+                <!-- Position relative -->
+                <div class="div-relative">
+                    Position relative <br><br><br><br><br>
+                    Left: 30px&#59 <!-- &#59 é para fazer o ; (ponto e vírgula) -->
+                </div>
+
+                <!-- Position fixed -->
+                <div class="div-fixed">
+                    Position fixed <br><br><br><br><br>
+                    bottom: 0&#59 <br> <!-- &#59 é para fazer o ; (ponto e vírgula) -->
+                    right: 0&#59 <!-- &#59 é para fazer o ; (ponto e vírgula) -->
+                    
+                </div>
+
+                <!-- Position absolute -->
+                <div class="div-absolute">
+                    Position absolute <br><br><br><br><br>
+                    top: 0&#59 <br> <!-- &#59 é para fazer o ; (ponto e vírgula) -->
+                    right: 0&#59 <!-- &#59 é para fazer o ; (ponto e vírgula) -->
+                </div>
+
+                <!-- Position sticky -->
+                <div class="div-sticky">
+                    Position sticky <br><br><br><br><br>
+                    Efeito similar ao fixed
+                </div>
+            </div>
+        </div>
+
+        <!-- Rodapé -->
+        <footer>
+            <h4>Desenvolvido por Raffael Eloi</h4>
+        </footer>
+    </body>
+</html>

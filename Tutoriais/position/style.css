@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+/* Formatação de texto */
+h1 {
+    margin-left: 130px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+li {
+    font-size: 18px;
+}
+
+/* Definir tamanho das bordas da div  */
+div {
+    margin: 20px;
+}
+#tipos-positions {
+    border: 1px solid gray;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Definir fonte padrão para as caixas (div) */
+#box-positions {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Definição das divs positions */
+.div-static {
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    border-radius: 5px;
+    padding-top: 15px;
+    /* Definição de posição */
+    position: static; /* Não muda nada pois é a formatação padrão */
+}
+
+.div-relative {
+    width: 300px;
+    height: 300px;
+    border: 3px solid green;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-top: 15px;
+    /* Definição de posição */
+    position: relative;
+    left: 50px; 
+}
+
+.div-fixed {
+    width: 300px;
+    height: 300px;
+    border: 3px solid yellow;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-top: 15px;
+    /* Definição de posição */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.div-absolute {
+    width: 300px;
+    height: 300px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-top: 15px;
+    /* Definição de posição */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.div-sticky {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-top: 15px;
+    /* Definição de posição */
+    position: sticky;
+    top: 0;
+}
+
+/* Formatações hover */
+.div-static:hover {
+    background-color: indianred;
+    transition-delay: 0.1s;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.div-relative:hover {
+    background-color: ForestGreen;
+    transition-delay: 0.1s;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.div-fixed:hover {
+    background-color: yellow;
+    transition-delay: 0.1s;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.div-absolute:hover {
+    background-color: DarkBlue;
+    transition-delay: 0.1s;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.div-sticky:hover {
+    background-color: DarkSlateGray;
+    transition-delay: 0.1s;
+    box-shadow: 5px 5px 10px gray;
+}
